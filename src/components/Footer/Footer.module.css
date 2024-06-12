@@ -1,0 +1,41 @@
+.root {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  max-width: 640px;
+}
+
+.legals {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item {
+   
+font-size: 13px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: center;
+
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #3366ff;
+  font-family: 'Mulish', sans-serif;
+
+  &:hover {
+    color: #2b57d9;
+  }
+}
