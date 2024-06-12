@@ -27,7 +27,7 @@ export function SocialMediaLinks() {
       <div className={styles.socialList}>
         {socialMediaList.map(({ id, href }) => (
           <a href={href} target="_blank" rel="noreferrer noopener" className={styles.item} key={id}>
-            <img src={`/images/${id}.svg`} alt={`${id}-logo`} />
+            <img src={`./images/${id}.svg`} alt={`${id}-logo`} />
           </a>
         ))}
       </div>

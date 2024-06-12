@@ -10,7 +10,7 @@ export default function Intro() {
           Our academy offers a transformative learning experience designed to empower you with the
           skills and knowledge needed to succeed in the ever-evolving field of frontend development.
         </div>
-        <img src="/images/musician.png" alt="A guy playing guitar" className={styles.img} />
+        <img src="./images/musician.png" alt="A guy playing guitar" className={styles.img} />
         <div className={styles.text}>
           Are you ready to turn your passion for technology into a thriving career?
         </div>

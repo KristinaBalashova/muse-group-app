@@ -16,10 +16,10 @@
 }
 
 .item {
-font-size: 13px;
-font-weight: 400;
-line-height: 19.5px;
-text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
 
   list-style-type: none;
   cursor: pointer;
