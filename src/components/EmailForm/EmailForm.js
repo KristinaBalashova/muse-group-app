@@ -35,7 +35,7 @@ const EmailForm = () => {
         <div>
           <input
             type="email"
-            textarea="Email"
+            placeholder="Email"
             value={email}
             onChange={handleChange}
             required
