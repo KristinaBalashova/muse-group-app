@@ -11,5 +11,11 @@ export const Button = ({ href = null, content, filled = false, text = false, typ
     type={type}
   >
     {content}
+    {
+      filled && <img src={`./images/arrow-big.svg`} alt={'arrow'} />
+    }
+    {
+      text && <img src={`./images/arrow-simple.svg`} alt={'arrow'} />
+    }
   </button>
 );
