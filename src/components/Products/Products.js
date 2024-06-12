@@ -39,10 +39,15 @@ export function Products() {
             return (
               <div className={styles.productCard} key={id}>
                 <div style={{ backgroundColor: color }} className={styles.cardPic}></div>
-                <div className={styles.cardInfo}>
+                <div className={styles.cardContent}>
                   <h4 className={styles.title}>{title}</h4>
                   <p className={styles.description}>{description}</p>
-                  <Button href="" content="Read more" text type="button" />
+                  <div className={styles.linkContainer}>
+                    <a href="" target="_blank" rel="noreferrer noopener" className={styles.link}>
+                      Read more
+                    </a>
+                    <img src={`./images/arrow-simple.svg`} alt={'arrow'} />
+                  </div>
                 </div>
               </div>
             );

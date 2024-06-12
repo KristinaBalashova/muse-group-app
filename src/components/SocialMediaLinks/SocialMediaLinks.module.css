@@ -1,13 +1,17 @@
 .root {
   font-family: 'Inter', sans-serif;
-  width: 50%;
+  width: 100%;
 }
 
 .socialList {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
+  justify-content: center;
+  gap: 40px;
+
+  @media (min-width: 500px) {
+    gap: 60px;
+  }
 }
 
 .item {
