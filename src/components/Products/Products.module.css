@@ -31,10 +31,15 @@
 }
 
 .cardInfo {
+  padding: 20px;
+}
+
+.cardContent {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 10px;
-  padding: 20px;
+
 }
 
 .title {
