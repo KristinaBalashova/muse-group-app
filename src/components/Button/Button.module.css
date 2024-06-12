@@ -1,0 +1,44 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: 744px) {
+    width: 142px;
+  }
+}
+
+.filled {
+  background-color: #3366ff;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+
+  &:hover {
+    background-color: #2b57d9;
+  }
+}
+
+.text {
+  color: #3366ff;
+  font-family: 'Mulish', sans-serif;
+  justify-content: start;
+  font-weight: 600;
+
+  &:hover {
+    color: #2b57d9;
+  }
+}

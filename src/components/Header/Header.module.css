@@ -1,0 +1,13 @@
+.root {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  padding: 25px 0px;
+  text-align: center;
+}
+.logo {
+  width: 144px;
+  height: 40px;
+  pointer-events: none;
+}
