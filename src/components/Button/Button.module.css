@@ -1,4 +1,6 @@
 .button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,39 +9,20 @@
   border: none;
   border-radius: 8px;
   text-decoration: none;
-  background-color: white;
+  background-color: #3366ff;
+  color: white;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   gap: 10px;
+  transition: background-color 0.5s ease;
 
   &:hover {
     cursor: pointer;
+    background-color: #2b57d9;
   }
 
   @media (min-width: 744px) {
-    width: 142px;
-  }
-}
-
-.filled {
-  background-color: #3366ff;
-  color: white;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-
-  &:hover {
-    background-color: #2b57d9;
-  }
-}
-
-.text {
-  color: #3366ff;
-  font-family: 'Mulish', sans-serif;
-  justify-content: start;
-  font-weight: 600;
-
-  &:hover {
-    color: #2b57d9;
+    width: 98px;
   }
 }
