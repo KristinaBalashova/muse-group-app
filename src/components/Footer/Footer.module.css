@@ -5,14 +5,14 @@
 }
 
 .container {
-  padding: 20px;
+  padding: 32px;
   max-width: 640px;
 }
 
 .legals {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 24px;
 }
 
 .item {
@@ -29,6 +29,7 @@
   text-decoration: none;
   color: #3366ff;
   font-family: 'Mulish', sans-serif;
+  transition: color 0.5s ease;
 
   &:hover {
     color: #2b57d9;
