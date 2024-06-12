@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/muse-group-app/static/css/main.f1b0a7c7.css",
-    "main.js": "/muse-group-app/static/js/main.8d085d26.js",
+    "main.js": "/muse-group-app/static/js/main.27d5ea8f.js",
     "static/js/453.14be5bf7.chunk.js": "/muse-group-app/static/js/453.14be5bf7.chunk.js",
     "index.html": "/muse-group-app/index.html",
     "main.f1b0a7c7.css.map": "/muse-group-app/static/css/main.f1b0a7c7.css.map",
-    "main.8d085d26.js.map": "/muse-group-app/static/js/main.8d085d26.js.map",
+    "main.27d5ea8f.js.map": "/muse-group-app/static/js/main.27d5ea8f.js.map",
     "453.14be5bf7.chunk.js.map": "/muse-group-app/static/js/453.14be5bf7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1b0a7c7.css",
-    "static/js/main.8d085d26.js"
+    "static/js/main.27d5ea8f.js"
   ]
 }
