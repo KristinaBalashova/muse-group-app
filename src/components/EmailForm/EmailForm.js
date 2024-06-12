@@ -3,16 +3,17 @@ import styles from './EmailForm.module.css';
 import React, { useState } from 'react';
 
 const EmailForm = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('Email');
   const [emailError, setEmailError] = useState('');
 
   const handleChange = (e) => {
     setEmail(e.target.value);
     validateEmail(e.target.value);
   };
+
   const validateEmail = (email) => {
-    const regex = /[a-zA-Z0-9.*%±]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}/;
-    if (regex.test(email)) {
+    const regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    if (regexEmail.test(email)) {
       setEmailError('');
     } else {
       setEmailError('Invalid email address');
@@ -32,10 +33,10 @@ const EmailForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className={styles.container}>
-        <div>
+        <div className={styles.inputContainer}>
           <input
             type="email"
-            placeholder="Email"
+            placeholder={email}
             value={email}
             onChange={handleChange}
             required
@@ -44,7 +45,7 @@ const EmailForm = () => {
           {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
         </div>
 
-        <Button filled content="Submit" type="submit" />
+        <Button filled content="Join" type="submit" />
       </div>
     </form>
   );
