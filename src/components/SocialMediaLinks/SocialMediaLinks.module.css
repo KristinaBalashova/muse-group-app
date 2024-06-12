@@ -1,0 +1,17 @@
+.root {
+  font-family: 'Inter', sans-serif;
+}
+
+.socialList {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item {
+  list-style-type: none;
+}
+
+.logo {
+  cursor: pointer;
+}
