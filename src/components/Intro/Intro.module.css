@@ -31,13 +31,8 @@
 }
 
 .img {
-  width: 272px;
-  height: 206px;
-
-  @media (min-width: 500px) {
-    width: 640px;
-    height: 293px;
-  }
+  width: 100%;
+  height: 100%;
 }
 
 .subtitle {
