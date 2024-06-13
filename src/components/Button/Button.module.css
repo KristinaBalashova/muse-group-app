@@ -21,7 +21,7 @@
     background-color: #2b57d9;
   }
 
-  @media (min-width: 744px) {
+  @media (min-width: 500px) {
     width: 98px;
   }
 }
