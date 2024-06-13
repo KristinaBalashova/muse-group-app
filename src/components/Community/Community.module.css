@@ -1,7 +1,7 @@
 .root {
-  font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -14,9 +14,9 @@
 }
 
 .text {
+  width: 90%;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   text-align: center;
-  width: 90%;
 }
