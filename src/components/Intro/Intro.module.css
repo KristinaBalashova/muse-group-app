@@ -35,8 +35,8 @@
   height: 206px;
 
   @media (min-width: 500px) {
-    max-width: 640px;
-    max-height: 293px;
+    width: 640px;
+    height: 293px;
   }
 }
 

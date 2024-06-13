@@ -11,8 +11,8 @@ export default function Intro() {
           skills and knowledge needed to succeed in the ever-evolving field of frontend development.
         </p>
         <picture>
-          <source media="(max-width: 744px)" srcSet="./images/musician-mobile.png" />
-          <source media="(min-width: 1024px)" srcSet="./images/musician-desktop.png" />
+          <source media="(max-width: 500px)" srcSet="./images/musician-mobile.png" />
+          <source media="(min-width: 500px)" srcSet="./images/musician-desktop.png" />
           <img
             src="./images/musician-desktop.png"
             alt="A guy playing guitar"
