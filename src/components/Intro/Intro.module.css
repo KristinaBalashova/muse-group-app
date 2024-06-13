@@ -30,8 +30,13 @@
 }
 
 .img {
-  max-width: 640px;
-  max-height: 293px;
+  width: 272px;
+  height: 206px;
+
+  @media (min-width: 500px) {
+    max-width: 640px;
+    max-height: 293px;
+  }
 }
 
 .subtitle {

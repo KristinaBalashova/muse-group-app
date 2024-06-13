@@ -1,4 +1,3 @@
-import { SocialMediaLinks } from '../SocialMediaLinks/SocialMediaLinks';
 import styles from './Footer.module.css';
 
 const legalLinks = [

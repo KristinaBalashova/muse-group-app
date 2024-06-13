@@ -1,4 +1,3 @@
-import { Button } from '../Button/Button';
 import styles from './Products.module.css';
 
 const products = [

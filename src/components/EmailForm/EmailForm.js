@@ -3,8 +3,9 @@ import styles from './EmailForm.module.css';
 import React, { useState } from 'react';
 
 const EmailForm = () => {
-  const [email, setEmail] = useState('Email');
+  const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState('');
+  const [placeholder, setPlaceholder] = useState('Email');
 
   const handleChange = (e) => {
     setEmail(e.target.value);
@@ -28,6 +29,7 @@ const EmailForm = () => {
     } else {
       alert('Email is invalid');
     }
+    setPlaceholder('Email');
   };
 
   return (
@@ -36,11 +38,12 @@ const EmailForm = () => {
         <div className={styles.inputContainer}>
           <input
             type="email"
-            placeholder={email}
+            placeholder={placeholder}
             value={email}
             onChange={handleChange}
             required
             className={styles.input}
+            onFocus={() => setPlaceholder('')}
           />
           {emailError && <p style={{ color: 'red' }}>{emailError}</p>}
         </div>
