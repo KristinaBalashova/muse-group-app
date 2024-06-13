@@ -1,3 +1,7 @@
-This is a simple landing for Muse Group Frontend Academy
+Muse Group Frontend Academy Landing Page
 
-You can check deploed website: https://kristinabalashova.github.io/muse-group-app/
+This repository contains the source code for the Muse Group Frontend Academy landing page.
+
+The deployed version of the website can be viewed at: https://kristinabalashova.github.io/muse-group-app/
+
+
