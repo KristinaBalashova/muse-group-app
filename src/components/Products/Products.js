@@ -25,14 +25,12 @@ const products = [
   },
 ];
 
-//tag h1 in this block made like it was declared in figma design
-//but probably it's better to have only one h1 tag (th one in Intro component) for SEO reasons
 
 export function Products() {
   return (
     <section className={styles.root}>
       <div id="container" className={styles.container}>
-        <h1 className={styles.header}>Our Products</h1>
+        <h2 className={styles.header}>Our Products</h2>
         <div className={styles.products}>
           {products.map(({ color, title, description }, id) => {
             return (

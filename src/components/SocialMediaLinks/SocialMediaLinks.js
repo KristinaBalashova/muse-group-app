@@ -3,19 +3,19 @@ import styles from './SocialMediaLinks.module.css';
 const socialMediaList = [
   {
     id: 'insta',
-    href: 'https://www.instagram.com/animaapp/',
+    href: 'https://www.instagram.com/wearemusegroup/',
   },
   {
     id: 'telegram',
-    href: 'https://twitter.com/AnimaApp',
+    href: '',
   },
   {
     id: 'linkedin',
-    href: 'https://www.linkedin.com/company/anima-app',
+    href: 'https://www.linkedin.com/company/muse/',
   },
   {
     id: 'facebook',
-    href: 'https://discord.gg/eQxkYTNxSp',
+    href: 'https://www.facebook.com/Museteamofficial',
   },
 ];
 
